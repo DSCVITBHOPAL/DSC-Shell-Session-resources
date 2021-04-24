@@ -17,8 +17,8 @@ is_alive_ping(){
     echo " "
 }
 
-for i in 192.168.1.{1..255}
-#for i in www.google.com www.geeksforgeeks.com www.geeksforgeeks.org www.stackoverflow.com 
+#for i in 192.168.1.{1..255}
+for i in www.google.com www.geeksforgeeks.com www.geeksforgeeks.org www.stackoverflow.com 
 do
 is_alive_ping $i  
 done

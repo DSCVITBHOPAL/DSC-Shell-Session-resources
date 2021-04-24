@@ -6,6 +6,7 @@ function functionWithArgs {
 }
 
 functionWithArgs2 (){
+    echo ""
     echo "Parameters passed are $1 $2"
     return $(($1+$2))
 }

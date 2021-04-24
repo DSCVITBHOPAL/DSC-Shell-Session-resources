@@ -1,8 +1,8 @@
 #!/usr/bin/bash
-echo "Name"
+echo "Enter Name:"
 read name
 if [ "$name" == "abhijeet" ]; then
- echo "Password"
+ echo "Enter Password:"
  read password
     if [ "$password" == "pass" ];
     then

@@ -7,12 +7,14 @@ for ((i=1;i<=$n;i++)) ;
 do
    for ((j=$n;j>=$i;j--)) ;
    do
-   echo -n " " 
+      echo -n " " 
    done
+   
    for ((j=1;j<=$i;j++));
    do
-   echo -n "$i "
+      echo -n "$i "
    done
+   
    echo " "
 done
 
